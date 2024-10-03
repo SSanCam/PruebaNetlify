@@ -1,0 +1,56 @@
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centrar el título como prueba */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: whitesmoke; 
+}
+
+body {
+    width: 80%;  
+    height: 80%;
+    max-width: 1200px; 
+    background-color: white; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.box1 {
+    width: 150px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    align-items: center;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+}
+
+img {
+    width: 80px;
+    height: 100px;
+}
